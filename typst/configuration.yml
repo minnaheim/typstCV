@@ -1,0 +1,103 @@
+skills:
+    languages:
+        - English
+        - German
+    technologies:
+        - Java
+        - Python
+        - C
+        - C++
+        - JavaScript
+        - PHP
+        - Angular
+        - React
+        - NextJS
+        - Svelte(Kit)
+        - FastAPI
+        - REST
+        - HTML
+        - CSS
+        - SQL
+        - Mongo
+        - Postgres
+        - Docker
+        - Git
+        - Scrum and Arduino/ESP8266/32 based Hardware development
+
+jobs:
+    - position: Software Engineer
+      company:
+          name: Armstrong Systems
+          link: https://armstrongsystems.io/
+      description: Founded Armstrong Systems, consulting work for clients in Zürich.
+      from: '2022'
+      to: ''
+      tags:
+          - Data Analysis
+          - Data Visualization
+          - Report Generation
+    - position: Head teaching assistant for Computer Science II
+      company:
+          name: Department of Computer Science ETH Zürich
+          link: https://inf.ethz.ch/
+      description: I am responsible for the organization of the teaching assistants and the exercise classes. In addition I work closely with the lectures preparing exercise material and making sure the course runs smoothly.
+      from: 'August 2023'
+      to: ''
+      tags:
+          - Teaching
+          - Management
+          - C++
+          - Algorithms
+          - Data structures
+    - position: Teaching assistant for Computer Science II
+      company:
+          name: Department of Computer Science ETH Zürich
+          link: https://inf.ethz.ch/
+      description: I taught one of the exercise classes and reviewed student submissions. The course provides the foundations for the design and analysis of algorithms. Classical problems ranging from sorting up to problems on graphs are used to discuss common data structures, algorithms and algorithm design paradigms.
+      from: 'August 2022'
+      to: 'February 2023'
+      tags:
+          - Teaching
+          - C++
+          - Algorithms
+          - Data structures
+    - position: Teaching assistant and Developer
+      company:
+          name: Inter-university research group Industrial Software, Vienna University of Technology
+          link: https://www.inso.tuwien.ac.at
+      description: Together with a small team we developed security challenges for teams of students to compete in a Capture the Flag (CTF) competition. It was held as part of the course "Security for Systems Engineering" at TU Wien. In addition I supervised students during the competition and helped administering exams later in the semester.
+      from: 'Spring 2021'
+      to: '_'
+      tags:
+          - Teaching
+          - C
+          - Python
+          - Security
+          - Data structures
+    - position: Paramedic (civil-service)
+      company:
+          name: Samariterbund
+          link: https://www.samariterbund.net
+      description: Worked as a paramedic in Vienna as part of my civil service.
+      from: '2018'
+      to: '2019'
+      tags:
+          -
+
+education:
+    - university:
+          name: 'ETH Zürich'
+          link: 'https://ethz.ch/'
+      degree: 'B.Sc.'
+      major: Computational Science and Engineering, Robotics specialization
+      track: Robotics
+      from: '2021'
+      to: ''
+    - university:
+          name: Vienna University of Technology
+          link: 'https://www.tuwien.at'
+      degree: 'B.Sc.'
+      major: Computer Science, Software & Information Engineering track
+      track: Software & Information Engineering
+      from: '2019'
+      to: '2021 (switch to ETH)'
