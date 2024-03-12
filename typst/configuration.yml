@@ -35,20 +35,33 @@ jobs:
       tags:
           - Data Analysis
           - Data Visualization
-          - Report Generation
+
+    - position: Teaching Assistant for Software Engineering Fundamentals
+      company:
+          name: Department of Computer Science ETH Zürich
+          link: https://inf.ethz.ch/
+      description: Teaching Assistant for the course Software Engineering Fundamentals
+      from: 'February 2023'
+      to: ''
+      tags:
+          - Teaching
+          - Python
+          - Software Engineering
+
     - position: Head teaching assistant for Computer Science II
       company:
           name: Department of Computer Science ETH Zürich
           link: https://inf.ethz.ch/
       description: I am responsible for the organization of the teaching assistants and the exercise classes. In addition I work closely with the lectures preparing exercise material and making sure the course runs smoothly.
       from: 'August 2023'
-      to: ''
+      to: 'February 2024'
       tags:
           - Teaching
           - Management
           - C++
           - Algorithms
           - Data structures
+
     - position: Teaching assistant for Computer Science II
       company:
           name: Department of Computer Science ETH Zürich
@@ -61,6 +74,7 @@ jobs:
           - C++
           - Algorithms
           - Data structures
+
     - position: Teaching assistant and Developer
       company:
           name: Inter-university research group Industrial Software, Vienna University of Technology
