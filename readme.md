@@ -2,7 +2,7 @@
 
 Typst version of my CV using a yml file with a custom template.
 
-[Current CV](https://benarmstro.ng/cv)
+[Current CV PDF](https://benarmstro.ng/cv)
 
 ## Deploy
 
