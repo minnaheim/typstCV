@@ -10,6 +10,8 @@ skills:
         - JavaScript
         - PHP
         - Angular
+        - PyTorch
+        - Docker
         - React
         - NextJS
         - Svelte(Kit)
@@ -20,12 +22,11 @@ skills:
         - SQL
         - Mongo
         - Postgres
-        - Docker
         - Git
         - Scrum and Arduino/ESP8266/32 based Hardware development
 
 jobs:
-    - position: Software Engineer
+    - position: Freelance Software Engineer
       company:
           name: Armstrong Systems
           link: https://armstrongsystems.io/
@@ -41,8 +42,8 @@ jobs:
           name: Department of Computer Science ETH Zürich
           link: https://inf.ethz.ch/
       description: Teaching Assistant for the course Software Engineering Fundamentals
-      from: 'February 2024'
-      to: ''
+      from: 'Spring Semester 2024'
+      to: '_'
       tags:
           - Teaching
           - Python

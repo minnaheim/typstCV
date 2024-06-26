@@ -23,10 +23,10 @@
         #set text(size: eval(settings.font.size.sidebar))
         Born and raised in Vienna, currently living in Zürich.
 
-        In my free time I like to code, tinker with electronics, design and make
-        furniture, and generally I enjoy all types of DIY/maker projects. I am also
-        interested in (FPV) Drones, IoT Prototyping, CAD/CAM, 3D Printing, Cycling,
-        Tennis and of course all things computer science.
+        In my free time, I like to code, tinker with electronics, design and make
+        furniture, and generally enjoy all types of DIY/maker projects. I am also
+        interested in FPV drones, IoT prototyping, 3D printing, tennis, cycling,
+        triathlons, and of course, all things computer science.
 
         *Email:* #link("mailto:contact@benarmstro.ng") \
         *Phone:* #link("tel:+41784215042") \
