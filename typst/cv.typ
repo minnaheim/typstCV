@@ -1,7 +1,7 @@
 #let configuration = yaml("configuration.yml")
 #let settings = yaml("settings.yml")
 
-#let heading_font = "Helvetica Neue"
+#let heading_font = "Poppins"
 
 #set page(margin: 20mm)
 
@@ -51,7 +51,7 @@
     #upper[
       #set text(font: heading_font)
       #[
-        #set text(size: 18pt, weight: "medium")
+        #set text(size: 20pt, weight: "medium")
         *Benedict Armstrong*
       ]
       #[
