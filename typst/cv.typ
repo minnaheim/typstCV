@@ -1,7 +1,7 @@
 #let configuration = yaml("configuration.yml")
 #let settings = yaml("settings.yml")
 
-#let heading_font = "Poppins"
+#let heading_font = "Helvetica Neue"
 
 #set page(margin: 20mm)
 
