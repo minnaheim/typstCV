@@ -26,6 +26,21 @@ skills:
         - Scrum and Arduino/ESP8266/32 based Hardware development
 
 jobs:
+    - position: Coding Assistant for LehrFEM++ Finite Element Library
+      company:
+          name: Seminar for Applied Mathematics ETH Zürich
+          link: https://math.ethz.ch/sam
+      description: Coding Assistant for c++ Finite Element Library "LehrFEM++" used for the course Numerical Methods for Partial Differential Equations
+      from: 'Summer 2024'
+      to: '_'
+      tags:
+          - Coding
+          - Documentation
+          - Finite Element Method
+          - FEM
+          - LehrFEM
+          - C++
+
     - position: Freelance Software Engineer
       company:
           name: Armstrong Systems
@@ -98,13 +113,31 @@ jobs:
       to: '2019'
       tags:
           -
+    - position: Summer internship
+      company:
+          name: Tecton Consult
+          link: https://engineering.tecton-consult.at/?lang=en
+      description: Summer internship at Tecton Consult, a civil engineering company in Vienna.
+      from: 'Summer 2018'
+      to: '_'
+      tags:
+          -
+    - position: Various summer jobs
+      company:
+          name: Various
+          link: ''
+      description: Various summer jobs in Vienna including working as a Postman, food delivery driver and math/CS tutor for high school students.
+      from: 'Summers 2017-2021'
+      to: '_'
+      tags:
+          -
 
 education:
     - university:
           name: 'ETH Zürich'
           link: 'https://ethz.ch/'
       degree: 'B.Sc.'
-      major: Computational Science and Engineering, Robotics specialization
+      major: Computational Science and Engineering, Robotics track
       track: Robotics
       from: '2021'
       to: ''

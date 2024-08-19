@@ -1,7 +1,15 @@
 #let configuration = yaml("configuration.yml")
 #let settings = yaml("settings.yml")
 
+#let heading_font = "Poppins"
+
 #set page(margin: 20mm)
+
+#show heading.where(level: 1): it => [
+  #set text(size: 14pt, font: heading_font, weight: "semibold")
+  #it
+  #v(0.2em)
+]
 
 #set par(leading: eval(settings.paragraph.leading))
 
@@ -41,9 +49,9 @@
   [
 
     #upper[
-      #set text(font: "Helvetica Neue")
+      #set text(font: heading_font)
       #[
-        #set text(size: 18pt)
+        #set text(size: 18pt, weight: "medium")
         *Benedict Armstrong*
       ]
       #[
@@ -52,19 +60,19 @@
         // #link("https://benarmstro.ng")[benarmstro.ng]
       ]
     ]
-
     = Education
 
     #{
       for place in configuration.education [
         - #[
+            #set text(size: 11pt)
             #[
-              #set text(size: eval(settings.font.size.body))
               #link(place.university.link)[*#place.university.name*]
             ] \
             #place.degree #place.major \
             #place.from — #place.to \
           ]
+          #v(1em)
       ]
     }
 
@@ -77,9 +85,12 @@
             *#job.position*,
             #link(job.company.link)[#job.company.name] \
             #job.from #if job.to != "_" [— #job.to] \
-            #par[
-              #set text(size: eval(settings.font.size.body))
-              #job.description
+            #[
+              #show par: set block(spacing: 0em)
+              #par[
+                #set text(size: eval(settings.font.size.body))
+                #job.description
+              ]
             ]
             // #{
             //   set text(
@@ -89,10 +100,12 @@
             //   tag_line
             // }
           ]
+        #v(1em)
       ]
     }
 
     = Languages and Technologies
+
     #{
       let languages = configuration.skills.languages.join(", ")
       let technologies = configuration.skills.technologies.join(", ")
