@@ -28,7 +28,7 @@ jobs:
               run: |
                 cargo install --locked typst-cli
                 typst compile typst/cv.pdf
-            - run: mkdir cv && mv typst/cv.pdf cv/cv.pdf
+            - run: mkdir cv && mv typst/cv.typ cv/cv.pdf
             - name: deploy
               uses: JamesIves/github-pages-deploy-action@v4
               if: github.ref == 'refs/heads/main'
