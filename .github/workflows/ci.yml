@@ -17,6 +17,11 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
+            - name: Install Fonts
+              run: |
+                mkdir /usr/share/fonts/googlefonts
+                mv fonts/* /usr/share/fonts/googlefonts
+                sudo chmod -R --reference=/usr/share/fonts/opentype /usr/share/fonts/googlefonts
             - name: Typst
               uses: lvignoli/typst-action@main
               with:
