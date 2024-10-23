@@ -22,6 +22,8 @@ jobs:
                 mkdir -p /usr/share/fonts
                 mv fonts /usr/share/fonts/
                 fc-cache -fv
+            - name: Setup tmate session
+              uses: mxschmitt/action-tmate@v3
             - name: Typst
               uses: lvignoli/typst-action@main
               with:
