@@ -19,7 +19,7 @@ jobs:
               with:
                 source_file: |
                   typst/cv.typ
-            - run: mkdir cv && mv cv.pdf cv/cv.pdf
+            - run: mkdir cv && mv typst/cv.pdf cv/cv.pdf
             - name: deploy
               uses: JamesIves/github-pages-deploy-action@v4
               if: github.ref == 'refs/heads/main'
