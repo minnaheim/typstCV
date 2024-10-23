@@ -17,11 +17,12 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
-            - name: Install Fonts
+            - name: Install Google Fonts
               run: |
-                mkdir /usr/share/fonts/googlefonts
-                mv fonts/* /usr/share/fonts/googlefonts
-                sudo chmod -R --reference=/usr/share/fonts/opentype /usr/share/fonts/googlefonts
+                wget -O Poppins.zip https://fonts.google.com/download?family=Poppins
+                unzip -d Poppins/ Poppins.zip
+                mv Poppins /usr/share/fonts/
+                fc-cache -fv
             - name: Typst
               uses: lvignoli/typst-action@main
               with:
