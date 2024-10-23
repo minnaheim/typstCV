@@ -13,7 +13,7 @@
 
 #set par(leading: eval(settings.paragraph.leading))
 
-#set text(size: eval(settings.font.size.body), font: "Charter")
+#set text(size: eval(settings.font.size.body), font: "Source Serif 4")
 
 #let sidebarSection = {
   [
@@ -86,7 +86,6 @@
             #link(job.company.link)[#job.company.name] \
             #job.from #if job.to != "_" [— #job.to] \
             #[
-              #show par: set block(spacing: 0em)
               #par[
                 #set text(size: eval(settings.font.size.body))
                 #job.description
