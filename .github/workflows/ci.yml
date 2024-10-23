@@ -1,0 +1,30 @@
+name: Continuous Integration
+
+# Run this workflow every time a new commit pushed to your repository
+on: [push, pull_request]
+
+defaults:
+    run:
+        shell: bash
+
+jobs:
+    deploy_cv:
+        name: deploy_cv
+        runs-on: ubuntu-22.04
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+            - name: Typst
+              uses: lvignoli/typst-action@main
+              with:
+                source_file: |
+                  typst/cv.typ
+            - run: mkdir cv && mv cv.pdf cv/cv.pdf
+            - name: deploy
+              uses: JamesIves/github-pages-deploy-action@v4
+              if: github.ref == 'refs/heads/main'
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  branch: gh-pages
+                  folder: 'cv'
+                  clean: true

@@ -30,7 +30,7 @@ jobs:
       company:
           name: Seminar for Applied Mathematics ETH Zürich
           link: https://math.ethz.ch/sam
-      description: Coding Assistant for c++ Finite Element Library "LehrFEM++" used for the course Numerical Methods for Partial Differential Equations
+      description: Coding Assistant for c++ Finite Element Library "LehrFEM++" used for the course Numerical Methods for Partial Differential Equations taught by Prof. Dr. Ralf Hiptmair.
       from: 'Summer 2024'
       to: '_'
       tags:
