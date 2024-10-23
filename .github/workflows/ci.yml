@@ -21,9 +21,7 @@ jobs:
               uses: mxschmitt/action-tmate@v3
             - name: Install Google Fonts
               run: |
-                wget -O Poppins.zip https://fonts.google.com/download?family=Poppins
-                unzip -d Poppins/ Poppins.zip
-                mv Poppins /usr/share/fonts/
+                mv fonts /usr/share/fonts/
                 fc-cache -fv
             - name: Typst
               uses: lvignoli/typst-action@main
