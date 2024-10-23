@@ -17,6 +17,8 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
+            - name: Setup tmate session
+              uses: mxschmitt/action-tmate@v3
             - name: Install Google Fonts
               run: |
                 wget -O Poppins.zip https://fonts.google.com/download?family=Poppins
