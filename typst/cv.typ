@@ -20,7 +20,7 @@
 
     /* Headshot */
     #par[
-      #figure(image("images/headshot.jpg"), placement: top)
+      #figure(image("images/minnaheim.jpg"), placement: top)
     ]
 
     #par(
@@ -29,17 +29,15 @@
 
       #par[
         #set text(size: eval(settings.font.size.sidebar))
-        Born and raised in Vienna, currently living in Zürich.
+        Originally from Vienna, lived in Finland, Ukraine, France, and Singapore, and
+        currently living in Zürich.
 
-        In my free time, I like to code, tinker with electronics, design and make
-        furniture, and generally enjoy all types of DIY/maker projects. I am also
-        interested in FPV drones, IoT prototyping, 3D printing, tennis, cycling,
-        triathlons, and of course, all things computer science.
+        In my free time, I like to code, cycle, swim and read.
 
-        *Email:* #link("mailto:contact@benarmstro.ng") \
-        *Phone:* #link("tel:+41784215042") \
-        *LinkedIn:* #link("www.linkedin.com/in/benedictarmstrong")[benedictarmstrong] \
-        *GitHub:* #link("https://github.com/benedict-armstrong")[benedict-armstrong] \
+        *Email:* #link("mailto:minnaemiliahagen.heim@uzh.ch") \
+        *Phone:* #link("tel:+41767604201") \
+        *LinkedIn:* #link("https://www.linkedin.com/in/minna-heim-a885aa229/")[minnaheim] \
+        *GitHub:* #link("https://github.com/minnaheim")[minnaheim] \
       ]
     ]
   ]
@@ -52,11 +50,11 @@
       #set text(font: heading_font)
       #[
         #set text(size: 20pt, weight: "medium")
-        *Benedict Armstrong*
+        *Minna Emilia Hagen Heim*
       ]
       #[
         #set text(size: 10pt)
-        #link("mailto:contact@benarmstro.ng")[contact\@benarmstro.ng] #h(1fr)
+        // #link("mailto:contact@benarmstro.ng")[contact\@benarmstro.ng] #h(1fr)
         // #link("https://benarmstro.ng")[benarmstro.ng]
       ]
     ]

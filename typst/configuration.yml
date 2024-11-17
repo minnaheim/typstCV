@@ -1,37 +1,24 @@
 skills:
     languages:
-        - English
         - German
+        - English
+        - Russian
+        - French
     technologies:
-        - Java
+        - R
         - Python
-        - C
-        - C++
-        - JavaScript
-        - PHP
-        - Angular
-        - PyTorch
         - Docker
-        - React
-        - NextJS
-        - Svelte(Kit)
-        - FastAPI
-        - REST
         - HTML
         - CSS
-        - SQL
-        - Mongo
-        - Postgres
         - Git
-        - Scrum and Arduino/ESP8266/32 based Hardware development
 
 jobs:
-    - position: Coding Assistant for LehrFEM++ Finite Element Library
+    - position: Research Assistant at KOF-ETH
       company:
-          name: Seminar for Applied Mathematics ETH Zürich
-          link: https://math.ethz.ch/sam
-      description: Coding Assistant for c++ Finite Element Library "LehrFEM++" used for the course Numerical Methods for Partial Differential Equations taught by Prof. Dr. Ralf Hiptmair.
-      from: 'Summer 2024'
+          name: Swiss Economic Institute at ETH Zurich (KOF-ETH)
+          link: https://kof.ethz.ch
+      description: Assisting in various Projects at the Research Software Engineering and Economic Data (RSEED) Section, cooperation on open-source workflows and R packages. Assisting in the PhD Course "Hacking4Science at MTEC-ETH "
+      from: 'November 2023'
       to: '_'
       tags:
           - Coding
@@ -41,36 +28,36 @@ jobs:
           - LehrFEM
           - C++
 
-    - position: Freelance Software Engineer
+    - position: Intern
       company:
-          name: Armstrong Systems
-          link: https://armstrongsystems.io/
-      description: Founded Armstrong Systems, consulting work for clients in Zürich.
-      from: '2022'
-      to: ''
+          name: Advantage Austria - Austrian Embassy Commercial Section Almaty 
+          link: https://www.advantageaustria.org/kz/servicecenter/Buero-Almaty.en.html
+      description: Market research in the central Asian region for Austrian clients. Research on grants and internationalization cheques for Austrian Clients in the central Asian region. Checking for sanctioned firms in the central Asian region (Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan)
+      from: 'July 2023'
+      to: 'September 2023'
       tags:
           - Data Analysis
           - Data Visualization
 
-    - position: Teaching Assistant for Software Engineering Fundamentals
+    - position: Business Analyst
       company:
-          name: Department of Computer Science ETH Zürich
-          link: https://inf.ethz.ch/
-      description: Teaching Assistant for the course Software Engineering Fundamentals
-      from: 'Spring Semester 2024'
-      to: '_'
+          name: Hoeffinger Solutions - Strategy Development for CEOs and Governments 
+          link: https://www.hoeffingersolutions.com
+      description: Research on funding opportunities for clients, responsible for research, construction and the fact checking of slides.
+      from: 'August 2021'
+      to: 'July 2023'
       tags:
           - Teaching
           - Python
           - Software Engineering
 
-    - position: Head teaching assistant for Computer Science II
+    - position: Student Consultant
       company:
-          name: Department of Computer Science ETH Zürich
-          link: https://inf.ethz.ch/
-      description: I was responsible for the organization of the teaching assistants and the exercise classes. In addition I worked closely with the lectures preparing exercise material and made sure the course runs smoothly.
-      from: 'August 2023'
-      to: 'February 2024'
+          name: Cooling Singapore 2.0 - ETH Research Project 
+          link: https://sec.ethz.ch/research/cs.html
+      description: Creating a commercialization strategy for the research project. Developing a business plan for the project.
+      from: 'September 2022'
+      to: 'November 2022'
       tags:
           - Teaching
           - Management
@@ -78,74 +65,65 @@ jobs:
           - Algorithms
           - Data structures
 
-    - position: Teaching assistant for Computer Science II
+    - position: Barista & Shift Supervisor
       company:
-          name: Department of Computer Science ETH Zürich
+          name: SHSG Bereich Gastro - Cafés und Bars 
           link: https://inf.ethz.ch/
-      description: I taught one of the exercise classes and reviewed student submissions. The course provides the foundations for the design and analysis of algorithms. Classical problems ranging from sorting up to problems on graphs are used to discuss common data structures, algorithms and algorithm design paradigms.
-      from: 'August 2022'
-      to: 'February 2023'
+      description:  Serving customers and opening and closing the facilities, customer acquisition and retention. Responsible for customer acquisition and retention of the SHSG Bereich Gastro
+      from: 'August 2021'
+      to: 'November 2023'
       tags:
           - Teaching
           - C++
           - Algorithms
           - Data structures
 
-    - position: Teaching assistant and Developer
+    - position: Board Member
       company:
-          name: Inter-university research group Industrial Software, Vienna University of Technology
+          name: Student Impact - Consulting Club for Sustainable Businesses at HSG
           link: https://www.inso.tuwien.ac.at
-      description: Together with a small team we developed security challenges for teams of students to compete in a Capture the Flag (CTF) competition. It was held as part of the course "Security for Systems Engineering" at TU Wien. In addition I supervised students during the competition and helped administering exams later in the semester.
-      from: 'Spring 2021'
-      to: '_'
+      description: Responsible for the Wellbeing of the Consultants and Community, sustainability Guidance of the Association, event Planning
+      from: 'February 2022'
+      to: 'August 2022'
       tags:
           - Teaching
           - C
           - Python
           - Security
           - Data structures
-    - position: Paramedic (civil-service)
+    - position: Life Insurance Intern
       company:
-          name: Samariterbund
+          name: UNIQA Group
           link: https://www.samariterbund.net
-      description: Worked as a paramedic in Vienna as part of my civil service.
-      from: '2018'
-      to: '2019'
-      tags:
-          -
-    - position: Summer internship
-      company:
-          name: Tecton Consult
-          link: https://engineering.tecton-consult.at/?lang=en
-      description: Summer internship at Tecton Consult, a civil engineering company in Vienna.
-      from: 'Summer 2018'
-      to: '_'
-      tags:
-          -
-    - position: Various summer jobs
-      company:
-          name: Various
-          link: ''
-      description: Various summer jobs in Vienna including working as a Postman, food delivery driver and math/CS tutor for high school students.
-      from: 'Summers 2017-2021'
-      to: '_'
+      description: Optimizing and transferring client information from the old database into the new one
+      from: 'July 2021'
+      to: 'August 2021'
       tags:
           -
 
 education:
     - university:
-          name: 'ETH Zürich'
-          link: 'https://ethz.ch/'
-      degree: 'B.Sc.'
-      major: Computational Science and Engineering, Robotics track
-      track: Robotics
-      from: '2021'
+          name: 'University of Zurich'
+          link: 'https://uzh.ch/'
+      degree: 'M.Sc.'
+      major: Data Science
+    #   minor: Economics
+      from: '2024'
       to: ''
     - university:
-          name: Vienna University of Technology
-          link: 'https://www.tuwien.at'
-      degree: 'B.Sc.'
-      major: Computer Science, Software & Information Engineering track
-      track: Software & Information Engineering
-      from: '2019'
-      to: '2021 (switch to ETH)'
+          name: University of St. Gallen
+          link: 'https://www.unisg.ch'
+      degree: 'B.A.'
+      major: Economics
+    #   minor: Data Analytics and Data Handling
+      from: '2020'
+      to: '2024'
+    - university:
+          name: 'Singapore Management University'
+          link: 'https://www.smu.edu.sg/programmes'
+      degree: 'Exchange Semester'
+      major: 'Economics'
+    #   major: Data Science
+    #   minor: Economics
+      from: 'August 2022'
+      to: 'December 2022'
