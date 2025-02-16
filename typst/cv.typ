@@ -32,7 +32,8 @@
         Originally from Vienna, lived in Finland, Ukraine, France, and Singapore, and
         currently living in Zürich.
 
-        In my free time, I like to code, cycle, swim and read.
+        In my free time, I am part of the organizing committee of the Zurich R User
+        Group. I also like to code, cycle, swim and read.
 
         *Email:* #link("mailto:minnaemiliahagen.heim@uzh.ch") \
         *Phone:* #link("tel:+41767604201") \

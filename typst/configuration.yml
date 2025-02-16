@@ -7,6 +7,7 @@ skills:
     technologies:
         - R
         - Python
+        - Java
         - Docker
         - HTML
         - CSS
@@ -19,7 +20,7 @@ jobs:
           link: https://kof.ethz.ch
       description: Assisting in various Projects at the Research Software Engineering and Economic Data (RSEED) Section, cooperation on open-source workflows and R packages. Assisting in the PhD Course "Hacking4Science at MTEC-ETH "
       from: 'November 2023'
-      to: '_'
+      to: 'today'
       tags:
           - Coding
           - Documentation
@@ -106,16 +107,16 @@ education:
           name: 'University of Zurich'
           link: 'https://uzh.ch/'
       degree: 'M.Sc.'
-      major: Data Science
-    #   minor: Economics
+      major: Data Science, minor in Economics
+      minor: Economics
       from: '2024'
-      to: ''
+      to: 'today'
     - university:
           name: University of St. Gallen
           link: 'https://www.unisg.ch'
       degree: 'B.A.'
-      major: Economics
-    #   minor: Data Analytics and Data Handling
+      major: Economics, minor in Data Analytics and Data Handling
+      minor: 
       from: '2020'
       to: '2024'
     - university:
