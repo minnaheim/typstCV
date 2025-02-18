@@ -23,9 +23,7 @@
       #figure(image("images/minnaheim.jpg"), placement: top)
     ]
 
-    #par(
-      justify: true,
-    )[
+    #par(justify: true)[
 
       #par[
         #set text(size: eval(settings.font.size.sidebar))
@@ -101,6 +99,26 @@
         #v(1em)
       ]
     }
+    = Teaching Experiences
+
+    #{
+      for teaching in configuration.teaching [
+        - #[
+            #set text(size: 11pt)
+            *#teaching.position*,
+            #teaching.university.course
+            #teaching.university.name \
+            #teaching.from #if teaching.to != "_" [— #teaching.to] \
+            #[
+              #par[
+                #set text(size: eval(settings.font.size.body))
+                #teaching.description
+              ]
+            ]
+          ]
+          #v(1em)
+      ]
+    }
 
     = Languages and Technologies
 
@@ -119,7 +137,6 @@
   grid(
     columns: (1.618fr, 1fr),
     column-gutter: 1em,
-    mainSection,
-    sidebarSection,
+    mainSection, sidebarSection,
   )
 }

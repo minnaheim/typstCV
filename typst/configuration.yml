@@ -1,130 +1,146 @@
 skills:
-    languages:
-        - German
-        - English
-        - Russian
-        - French
-    technologies:
-        - R
-        - Python
-        - Java
-        - Docker
-        - HTML
-        - CSS
-        - Git
+  languages:
+    - German
+    - English
+    - Russian
+    - French
+  technologies:
+    - R
+    - Python
+    - Java
+    - Docker
+    - HTML
+    - CSS
+    - Git
 
 jobs:
-    - position: Research Assistant at KOF-ETH
-      company:
-          name: Swiss Economic Institute at ETH Zurich (KOF-ETH)
-          link: https://kof.ethz.ch
-      description: Assisting in various Projects at the Research Software Engineering and Economic Data (RSEED) Section, cooperation on open-source workflows and R packages. Assisting in the PhD Course "Hacking4Science at MTEC-ETH "
-      from: 'November 2023'
-      to: 'today'
-      tags:
-          - Coding
-          - Documentation
-          - Finite Element Method
-          - FEM
-          - LehrFEM
-          - C++
+  - position: Research Assistant at KOF-ETH
+    company:
+      name: Swiss Economic Institute at ETH Zurich (KOF-ETH)
+      link: https://kof.ethz.ch
+    description: Assisting in various Projects at the Research Software Engineering and Economic Data (RSEED) Section, cooperation on open-source workflows and R packages. Assisting in the PhD Course "Hacking4Science at MTEC-ETH "
+    from: "November 2023"
+    to: "today"
+    tags:
+      - Coding
+      - Documentation
+      - Finite Element Method
+      - FEM
+      - LehrFEM
+      - C++
 
-    - position: Intern
-      company:
-          name: Advantage Austria - Austrian Embassy Commercial Section Almaty 
-          link: https://www.advantageaustria.org/kz/servicecenter/Buero-Almaty.en.html
-      description: Market research in the central Asian region for Austrian clients. Research on grants and internationalization cheques for Austrian Clients in the central Asian region. Checking for sanctioned firms in the central Asian region (Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan)
-      from: 'July 2023'
-      to: 'September 2023'
-      tags:
-          - Data Analysis
-          - Data Visualization
+  - position: Intern
+    company:
+      name: Advantage Austria - Austrian Embassy Commercial Section Almaty
+      link: https://www.advantageaustria.org/kz/servicecenter/Buero-Almaty.en.html
+    description: Market research in the central Asian region for Austrian clients. Research on grants and internationalization cheques for Austrian Clients in the central Asian region. Checking for sanctioned firms in the central Asian region (Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan)
+    from: "July 2023"
+    to: "September 2023"
+    tags:
+      - Data Analysis
+      - Data Visualization
 
-    - position: Business Analyst
-      company:
-          name: Hoeffinger Solutions - Strategy Development for CEOs and Governments 
-          link: https://www.hoeffingersolutions.com
-      description: Research on funding opportunities for clients, responsible for research, construction and the fact checking of slides.
-      from: 'August 2021'
-      to: 'July 2023'
-      tags:
-          - Teaching
-          - Python
-          - Software Engineering
+  - position: Business Analyst
+    company:
+      name: Hoeffinger Solutions - Strategy Development for CEOs and Governments
+      link: https://www.hoeffingersolutions.com
+    description: Research on funding opportunities for clients, responsible for research, construction and the fact checking of slides.
+    from: "August 2021"
+    to: "July 2023"
+    tags:
+      - Teaching
+      - Python
+      - Software Engineering
 
-    - position: Student Consultant
-      company:
-          name: Cooling Singapore 2.0 - ETH Research Project 
-          link: https://sec.ethz.ch/research/cs.html
-      description: Creating a commercialization strategy for the research project. Developing a business plan for the project.
-      from: 'September 2022'
-      to: 'November 2022'
-      tags:
-          - Teaching
-          - Management
-          - C++
-          - Algorithms
-          - Data structures
+  - position: Student Consultant
+    company:
+      name: Cooling Singapore 2.0 - ETH Research Project
+      link: https://sec.ethz.ch/research/cs.html
+    description: Creating a commercialization strategy for the research project. Developing a business plan for the project.
+    from: "September 2022"
+    to: "November 2022"
+    tags:
+      - Teaching
+      - Management
+      - C++
+      - Algorithms
+      - Data structures
 
-    - position: Barista & Shift Supervisor
-      company:
-          name: SHSG Bereich Gastro - Cafés und Bars 
-          link: https://inf.ethz.ch/
-      description:  Serving customers and opening and closing the facilities, customer acquisition and retention. Responsible for customer acquisition and retention of the SHSG Bereich Gastro
-      from: 'August 2021'
-      to: 'November 2023'
-      tags:
-          - Teaching
-          - C++
-          - Algorithms
-          - Data structures
+  - position: Barista & Shift Supervisor
+    company:
+      name: SHSG Bereich Gastro - Cafés und Bars
+      link: https://inf.ethz.ch/
+    description: Serving customers and opening and closing the facilities, customer acquisition and retention. Responsible for customer acquisition and retention of the SHSG Bereich Gastro
+    from: "August 2021"
+    to: "November 2023"
+    tags:
+      - Teaching
+      - C++
+      - Algorithms
+      - Data structures
 
-    - position: Board Member
-      company:
-          name: Student Impact - Consulting Club for Sustainable Businesses at HSG
-          link: https://www.inso.tuwien.ac.at
-      description: Responsible for the Wellbeing of the Consultants and Community, sustainability Guidance of the Association, event Planning
-      from: 'February 2022'
-      to: 'August 2022'
-      tags:
-          - Teaching
-          - C
-          - Python
-          - Security
-          - Data structures
-    - position: Life Insurance Intern
-      company:
-          name: UNIQA Group
-          link: https://www.samariterbund.net
-      description: Optimizing and transferring client information from the old database into the new one
-      from: 'July 2021'
-      to: 'August 2021'
-      tags:
-          -
+  - position: Board Member
+    company:
+      name: Student Impact - Consulting Club for Sustainable Businesses at HSG
+      link: https://www.inso.tuwien.ac.at
+    description: Responsible for the Wellbeing of the Consultants and Community, sustainability Guidance of the Association, event Planning
+    from: "February 2022"
+    to: "August 2022"
+    tags:
+      - Teaching
+      - C
+      - Python
+      - Security
+      - Data structures
+  - position: Life Insurance Intern
+    company:
+      name: UNIQA Group
+      link: https://www.samariterbund.net
+    description: Optimizing and transferring client information from the old database into the new one
+    from: "July 2021"
+    to: "August 2021"
+    tags:
+      -
 
 education:
-    - university:
-          name: 'University of Zurich'
-          link: 'https://uzh.ch/'
-      degree: 'M.Sc.'
-      major: Data Science, minor in Economics
-      minor: Economics
-      from: '2024'
-      to: 'today'
-    - university:
-          name: University of St. Gallen
-          link: 'https://www.unisg.ch'
-      degree: 'B.A.'
-      major: Economics, minor in Data Analytics and Data Handling
-      minor: 
-      from: '2020'
-      to: '2024'
-    - university:
-          name: 'Singapore Management University'
-          link: 'https://www.smu.edu.sg/programmes'
-      degree: 'Exchange Semester'
-      major: 'Economics'
+  - university:
+      name: "University of Zurich"
+      link: "https://uzh.ch/"
+    degree: "M.Sc."
+    major: Data Science, minor in Economics
+    minor: Economics
+    from: "2024"
+    to: "today"
+  - university:
+      name: University of St. Gallen
+      link: "https://www.unisg.ch"
+    degree: "B.A."
+    major: Economics, minor in Data Analytics and Data Handling
+    minor:
+    from: "2020"
+    to: "2024"
+  - university:
+      name: "Singapore Management University"
+      link: "https://www.smu.edu.sg/programmes"
+    degree: "Exchange Semester"
+    major: "Economics"
     #   major: Data Science
     #   minor: Economics
-      from: 'August 2022'
-      to: 'December 2022'
+    from: "August 2022"
+    to: "December 2022"
+
+teaching:
+  - position: "Teaching Assistant"
+    university:
+      name: "ETH Zürich"
+      course: "Hacking4Sciences"
+    description: "Ph.D Course at D-MTEC which teaches students to leverage the Open Source Ecosystem for their research"
+    from: "September 2024"
+    to: "December 2024"
+  - position: "Guest Lecture"
+    university:
+      name: "University of St. Gallen"
+      course: "Data Handling"
+    description: "Bachelor of Economics Compulsory Course - My Guest Lecture was on non-rectangular data and the R-Package {kofdata}"
+    from: "October 2024"
+    to: "_"
